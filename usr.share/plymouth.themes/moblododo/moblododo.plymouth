@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Moblododo
+Description=Vibin Flamingos Splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes//moblododo
+ScriptFile=/usr/share/plymouth/themes//moblododo/moblododo.script

@@ -1,0 +1,21 @@
+# For convenience, but please don't copy and paste blindly. Inspect and adapt for your system.
+
+cd ~/
+git clone https://github.com/bigupjeff/moblododo
+sudo ln -s ~/moblododo/usr.share/aurorae.themes/Moblododo-dark/ /usr/share/aurorae/themes/Moblododo-dark
+sudo ln -s ~/moblododo/usr.share/aurorae.themes/Moblododo-light/ /usr/share/aurorae/themes/Moblododo-light
+sudo ln -s ~/moblododo/usr.share/QtCurve/Moblododo.qtcurve /usr/share/QtCurve/Moblododo.qtcurve
+sudo cp -p ~/moblododo/usr.share/color-schemes/Moblododo.colors /usr/share/color-schemes/Moblododo.colors
+sudo ln -s ~/moblododo/usr.share/konsole/Moblododo-dark.colorscheme /usr/share/konsole/Moblododo-dark.colorscheme
+sudo ln -s ~/moblododo/usr.share/konsole/Moblododo-light.colorscheme /usr/share/konsole/Moblododo-light.colorscheme
+sudo ln -s ~/moblododo/boot.grub/moblododo_1920x1200_8bit.png /boot/grub/moblododo_1920x1200_8bit.png
+sudo update-grub
+sudo cp -p -r ~/moblododo/usr.share/plymouth.themes/moblododo/ /usr/share/plymouth/themes/moblododo
+sudo cp -p -r ~/moblododo/usr.share/sddm.themes/moblododo/ /usr/share/sddm/themes/moblododo
+sudo ln -s ~/moblododo/usr.share/plasma.look-and-feel/moblododo/ /usr/share/plasma/look-and-feel/moblododo
+
+# Set ownership on any copied files
+
+sudo chown root:root /usr/share/color-schemes/Moblododo.colors
+sudo chown -R root:root /usr/share/plymouth/themes/moblododo/
+sudo chown -R root:root /usr/share/sddm/themes/moblododo/
