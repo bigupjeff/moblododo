@@ -20,7 +20,10 @@ Konsole         Colour schemes for the Konsole terminal.
 GRUB            GRUB menu background.
 Plymouth        Boot splash shown directly after GRUB.
 SDDM            Login/lock screen theme.
-Splash Screen   Plasma Look and Feel theme, currently only contains splash screen shown after login.
+Look and Feel   Plasma Look and Feel sets splash screen after login, plus some buttons etc.
+Desktop Theme	Plasma Desktop Theme sets the appearance of the app launcher, panels and widgets.
+
+## Installation
 
 #### Aurorae (.usr.share/aurorae.themes/)
 Symlink `...moblododo/usr.share/aurorae.themes/Moblododo-dark/` to `/usr/share/aurorae/themes/Moblododo-dark`.
@@ -61,6 +64,10 @@ Set theme in KDE system settings at *Startup and Shutdown > Login Screen (SDDM)*
  - symlinks don't work even though it will display in the settings dialog.
  - using the equiv directory in home also doesn't seem to play ball.
 
-#### Splash Screen (.usr.share/plasma.look-and-feel/)
+#### Look and Feel (.usr.share/plasma.look-and-feel/)
 Symlink `...moblododo/usr.share/plasma.look-and-feel/moblododo/` to `/usr/share/plasma/look-and-feel/moblododo`.
 Set theme in KDE system settings at *Appearance > Splash Screen*.
+
+#### Desktop Theme (.usr.share/plasma.look-and-feel/)
+Symlink `...moblododo/usr.share/plasma.desktoptheme/moblododo/` to `/usr/share/plasma/desktoptheme/moblododo`.
+Set theme in KDE system settings at *Appearance > Plasma Style*.

@@ -13,9 +13,16 @@ sudo update-grub
 sudo cp -p -r ~/moblododo/usr.share/plymouth.themes/moblododo/ /usr/share/plymouth/themes/moblododo
 sudo cp -p -r ~/moblododo/usr.share/sddm.themes/moblododo/ /usr/share/sddm/themes/moblododo
 sudo ln -s ~/moblododo/usr.share/plasma.look-and-feel/moblododo/ /usr/share/plasma/look-and-feel/moblododo
+sudo ln -s ~/moblododo/usr.share/plasma.desktoptheme/moblododo/ /usr/share/plasma/desktoptheme/moblododo
 
-# Set ownership on any copied files
+# Set ownership of copied files
 
 sudo chown root:root /usr/share/color-schemes/Moblododo.colors
 sudo chown -R root:root /usr/share/plymouth/themes/moblododo/
 sudo chown -R root:root /usr/share/sddm/themes/moblododo/
+
+# Set permissions of copied files
+
+sudo chmod 775 /usr/share/color-schemes/Moblododo.colors
+sudo chmod 775 -R /usr/share/plymouth/themes/moblododo/
+sudo chmod 775 -R /usr/share/sddm/themes/moblododo/

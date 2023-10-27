@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "me@jeffersonreal.uk",
+                "Name": "Jefferson Real"
+            }
+        ],
+        "Category": "",
+        "Description": "Moblododo by Jefferson Real",
+        "EnabledByDefault": true,
+        "Id": "default",
+        "License": "LGPL",
+        "Name": "Moblododo",
+        "Version": "0.1",
+        "Website": "https://jeffersonreal.uk"
+    },
+    "X-Plasma-API": "5.0"
+}
