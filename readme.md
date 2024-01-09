@@ -2,12 +2,13 @@
 
 This is my personal KDE Plasma 5 theme which is a constant work in progress. All the important bits like splash screens and window decorations are themed. Don't expect anything in here to be perfectly tidy, complete or best practice! ...KDE theming is a messy disjointed biz 🥲...
 
- - To install on a restricted OS or just to restrict to user, replace `/usr/share/` with `~/.local/share/` in the command paths. It should work for most/all of it.
- - Some dirs are concatenated system locations, so boot.grub = `/boot/grub/`.
+ - Dirs are concatenated system locations, so boot.grub = `/boot/grub/`.
+ - To install on a restricted OS or just to restrict to user, replace `/usr/share/...` with `~/.local/share/...` in the command paths. It should work for most/all of it.
  - You don't have to symlink the assets as I've suggested. Instead, you can just copy files to their destinations. If you do this, remember to set ownership on the copied files appropriately.
  - I've only installed and tested on Debian however, it should be good to go on any Debian-based distro with KDE plasma 5.
 
 ## Future Plans
+
  - Install script.
  - Share on the KDE store when it's mature.
 
